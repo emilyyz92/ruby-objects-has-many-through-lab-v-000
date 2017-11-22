@@ -12,7 +12,7 @@ attr_accessor :name, :songs
   end
 
   def genres
-    @songs.collect {|song| song.genres}
+    @songs.collect {|song| song.genre}
   end
 
 end
