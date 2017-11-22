@@ -5,3 +5,5 @@ attr_accessor :name, :songs
     @name = name
     @songs = []
   end
+
+end
